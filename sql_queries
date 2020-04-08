@@ -1,0 +1,11 @@
+create database bookstore;
+
+use bookstore;
+
+create table users (
+	email varchar(75) primary key,
+	name varchar(75),
+	pass varchar(20)
+);
+
+
